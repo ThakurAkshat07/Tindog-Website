@@ -1,6 +1,7 @@
 #title{
   color: white;
   background-color: #ff4c68;
+  height: 43rem;
 }
 body{
   font-family: Montserrat;
@@ -37,13 +38,14 @@ h1{
   line-height: 1.5;
 }
 .container-fluid{
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 /*features-section*/
 
 #features{
-  margin-top: 100px;
+  background-color: white;
+  position: relative;
   margin-bottom: 100px;
 }
 .feature-box{
