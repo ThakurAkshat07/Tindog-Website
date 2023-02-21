@@ -1,7 +1,7 @@
 #title{
   color: white;
   background-color: #ff4c68;
-  height: 43rem;
+  height: 100vh;
 }
 body{
   font-family: Montserrat;
@@ -108,4 +108,42 @@ h2{
 .price-card{
   text-align: center;
   padding: 3% 2%;
+}
+/* cta-section */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  height: auto;
+  padding: 7% 15% 7%;
+}
+.cta-title{
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+/* used download-button from title section */
+/*footer-section */
+#footer{
+  text-align: center;
+  color: black;
+  padding: 4% 0 2%;
+}
+.footer-icon{
+  color: black;
+  margin: 1% 0.5% 1%;
+}
+/*media-query breakpoints */
+
+@media (max-width: 1028px) {
+  #title{
+    height: auto;
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0deg);
+    width: 60%;
+  }
 }
